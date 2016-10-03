@@ -43,7 +43,7 @@ void main() {
 	// that a fragment shader is responsible for setting
 	gl_FragColor = vec4(0.02, 1, 0.894, 1); // rgba
 }
-`
+`;
 
 var vertexShader         = createShader(gl, gl.VERTEX_SHADER, vertexShaderSource);
 var fragmentShader       = createShader(gl, gl.FRAGMENT_SHADER, fragmentShaderSource);
